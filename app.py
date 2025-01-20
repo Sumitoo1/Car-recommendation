@@ -11,6 +11,7 @@ from textblob import TextBlob
 import datetime as dt
 
 
+
 # Function to read and preprocess chat data
 def preprocess_chat(uploaded_file):
     content = uploaded_file.read().decode("utf-8")
@@ -195,3 +196,5 @@ if uploaded_file is not None:
         st.write("⚠️ No valid messages found in the uploaded file. Please check the format.")
 
 st.write("📤 Upload a WhatsApp chat file to get started!")
+
+
